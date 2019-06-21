@@ -1,0 +1,74 @@
+.cat {
+  border-bottom: 1px solid aliceblue;
+  padding-top: 16px;
+  padding-left: 10px;
+  transition: 0.4s;
+}
+.cat:hover {
+  background-color: #5c5c5c;
+  transition: 0.4s;
+}
+.cat_1 {
+  /* border-bottom: 1px solid aliceblue; */
+  padding-top: 16px;
+}
+.data {
+  overflow: hidden;
+}
+
+.titlediv {
+  height: 100px;
+  text-align: center;
+  padding-top: 50px;
+}
+.title {
+  color: aliceblue;
+}
+.sec {
+  margin-top: 40px;
+  background-color: #3e3e3e;
+  color: aliceblue;
+  width: 50%;
+}
+
+.events {
+  width: 80%;
+  background-color: rgb(189, 189, 189);
+  margin-bottom: 12px;
+  border-radius: 8px;
+  color: #3e3e3e;
+  margin-top: 15px;
+}
+.lab {
+  padding-top: 6px;
+  padding-left: 15px;
+  width: 85%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-bottom: 0;
+}
+.lab_2 {
+  width: 150px;
+  font-weight: 500;
+}
+
+.cent {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  margin-left: 7vw;
+}
+
+.btn_1 {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+a {
+  color: antiquewhite;
+  text-decoration: none;
+}
+.btnn {
+  display: flex;
+  justify-content: center;
+}

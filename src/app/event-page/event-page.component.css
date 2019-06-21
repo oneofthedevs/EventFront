@@ -1,0 +1,120 @@
+.sec {
+    margin-top: 40px;
+    background-color: #3e3e3e;
+    color: aliceblue;
+    width: 70%;
+    padding-bottom: 5%;
+  }
+  
+  .cat {
+    border-bottom: 1px solid aliceblue;
+    padding-top: 16px;
+    padding-left: 10px;
+    transition: 0.4s;
+    height: auto;
+    display: flex;
+  }
+  .cat:hover {
+    background-color: #5c5c5c;
+    transition: 0.4s;
+  }
+  .cat_1 {
+    /* border-bottom: 1px solid aliceblue; */
+    padding-top: 16px;
+  }
+  .data {
+    /* overflow: hidden; */
+    /* width: 80%; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    width: 50vw;
+    /* white-space: nowrap; */
+  }
+  
+  .titlediv {
+    height: 100px;
+    text-align: center;
+    padding-top: 50px;
+  }
+  .title {
+    color: aliceblue;
+  }
+  
+  .events {
+    width: 80%;
+    background-color: rgb(189, 189, 189);
+    margin-bottom: 12px;
+    border-radius: 8px;
+    color: #3e3e3e;
+    margin-top: 15px;
+  }
+  .lab {
+    padding-top: 6px;
+    padding-left: 15px;
+    width: 85%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: 0;
+  }
+  .lab_2 {
+    width: 150px;
+    font-weight: 500;
+    height: inherit;
+  }
+  
+  .cent {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .btn_1 {
+    margin: 25px 30px 0 0;
+  }
+  
+  /* h4{
+      margin: 6px;
+  }
+  p{
+      font-size: 14px;
+      padding: 0;
+      margin: 4px;
+  }
+  
+  .bulle
+  {
+      font-weight: 500;
+      font-size: 16px;
+      color: white;
+  }
+  
+  .cont{
+      display: flex;
+      width: 100%;
+      flex-direction: column-reverse;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-content: center; 
+  }
+  .dispCard
+  {
+      flex: auto;
+      width: 50%;
+      margin-top: 20px;
+      border: 3px solid rgb(112, 199, 119);
+      -moz-box-shadow: 0px 0px 23px -3px rgb(112, 199, 119);;
+      box-shadow: 0px 0px 23px -3px rgb(112, 199, 119);;
+  }
+  .title{
+      font-size: 40px;
+      color: #28a745;
+  }
+  .textdes
+  {
+      padding: 14px;
+      float: right;
+      width: 76%;
+      background-color: #3e3e3e;
+  } */
+  

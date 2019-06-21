@@ -1,0 +1,73 @@
+<div class="title1">
+  <h1>New Event</h1>
+</div>
+<section class="container1">
+  <div class="cont">
+    <div class="form_1">
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text ip2" id="inputGroup-sizing-default">Title</span>
+        </div>
+        <input type="text" class="form-control ip1" aria-label="Sizing example input"
+          aria-describedby="inputGroup-sizing-default" name="title" [(ngModel)]="title">
+      </div>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <label class="input-group-text ip2" for="inputGroupSelect01">Event Type</label>
+        </div>
+        <select class="custom-select ip1" id="inputGroupSelect01" [(ngModel)]="genere" name="genere">
+          <option selected disabled>Choose...</option>
+          <option value="coding">Coding</option>
+          <option value="coking">Cooking</option>
+          <option value="sport">Sports</option>
+        </select>
+      </div>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text ip2">Event Description</span>
+        </div>
+        <textarea class="form-control ip1" style="border: 1px solid white" aria-label="With textarea"
+          [(ngModel)]="description" name="desc"></textarea>
+      </div>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text ip2">Event Address</span>
+        </div>
+        <textarea class="form-control ip1" style="border: 1px solid white" aria-label="With textarea"
+          [(ngModel)]="address" name="add"></textarea>
+      </div>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text ip2" id="inputGroup-sizing-default">City Name</span>
+        </div>
+        <input type="text" class="form-control ip1" aria-label="Sizing example input"
+          aria-describedby="inputGroup-sizing-default" [(ngModel)]="city" name="city">
+      </div>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text ip2" id="inputGroup-sizing-default">Date</span>
+        </div>
+        <input type="date" class="form-control ip1" aria-label="Sizing example input"
+          aria-describedby="inputGroup-sizing-default" [(ngModel)]="date" name="date">
+      </div>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text ip2" id="inputGroup-sizing-default">Time</span>
+        </div>
+        <input type="time" class="form-control ip1" aria-label="Sizing example input"
+          aria-describedby="inputGroup-sizing-default" [(ngModel)]="time" name="time">
+      </div>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text ip2" id="inputGroup-sizing-default">Website</span>
+        </div>
+        <input type="text" class="form-control ip1" aria-label="Sizing example input"
+          aria-describedby="inputGroup-sizing-default" [(ngModel)]="website" name="website">
+      </div>
+      <span class="inpspan">
+        <button class="btn btn-success" (click)="addEvent()">Submit</button>
+      </span>
+    </div>
+  </div>
+</section>
+<footer style="height: 70px"></footer>

@@ -1,0 +1,122 @@
+/* .navbar{
+    top: 0%;
+    left: 0%;
+    padding: 0;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: #3e3e3e;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+.navbar ul li{
+    display: inline;
+    text-align: center;
+    transition: 0.4s;
+}
+
+.navbar ul li a{
+    padding: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    float: right;
+    color: white;
+    font-size: 20px;
+    display: block;
+    text-decoration: none;
+    transition: 0.4s;
+}
+.navbar ul li a:hover{
+    background-color: #28a745;
+    color:white;
+    transition: 0.4s;
+    text-decoration: none;
+    transition: 0.4s;
+}
+.navbar ul .head{
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #28a745;
+
+    margin-right: 50px;
+    padding:20px 50px 17px 50px;
+    float: left;
+    letter-spacing: 2px;
+}
+.navbar ul .head:hover{
+    
+    background-color: #28a745;
+    color: black;
+    cursor: default;
+}
+
+span{
+    color:white;
+} */
+
+.navbar {
+    top: 0%;
+    left: 0%;
+    padding: 0;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    background-color: #3e3e3e;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .navbar ul li {
+    display: inline;
+    text-align: center;
+    transition: 0.4s;
+  }
+  
+  .navbar ul li a {
+    padding: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    float: right;
+    color: white;
+    font-size: 20px;
+    display: block;
+    text-decoration: none;
+    transition: 0.4s;
+  }
+  .navbar ul li a:hover {
+    background-color: #28a745;
+    color: white;
+    transition: 0.4s;
+    text-decoration: none;
+    transition: 0.4s;
+  }
+  .navbar ul .head {
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #28a745;
+    /* padding-left: 50px; */
+    margin-right: 50px;
+    padding: 20px 50px 17px 50px;
+    float: left;
+    letter-spacing: 2px;
+  }
+  .navbar ul .head:hover {
+    /* text-shadow: 1px 1px 0 rgb(155, 224, 241); */
+    background-color: #28a745;
+    color: black;
+    cursor: default;
+  }
+  
+  span {
+    color: white;
+  }
+  
